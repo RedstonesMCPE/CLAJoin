@@ -15,7 +15,7 @@ class Main extends PluginBase implements Listener {
   const AUTHOR = "CLADevs";
   
   public function onEnable(){
-    $this->getLogger()->info(self::PREFIX . CLLADevs::GREEN . "Enabled. Build by " . CLADevs::RED . self..AUTHOR);
+    $this->getLogger()->info(self::PREFIX . CLLADevs::GREEN . "Enabled. Build by " . CLADevs::RED . self::AUTHOR);
     
   }
   
