@@ -18,9 +18,10 @@ class Main extends PluginBase implements Listener {
     
   }
   
-  public function onJoin[PlayerJoinEvent $event) {
+  public function onJoin(PlayerJoinEvent $event) {
    $player = $event->getPlayer();
     $name = $player->getName();
+    
     
         $player->setFood(20);
         $player->setHealth(20);
