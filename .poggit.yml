@@ -5,5 +5,5 @@ projects:
   CLAJoin:
     path: ""
     
-icon: icon.png
+icon: CLAJoin/icon.png
 ...
