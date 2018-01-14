@@ -14,7 +14,7 @@ class Main extends PluginBase implements Listener {
   const PREFIX = "§fCLA§cDevs §7>§r ";
   
   public function onEnable(){
-    $this->getLogger()->info(self::PREFIX . CLLADevs::GREEN . "Enabled. Build by CLADevs");
+    $this->getLogger()->info(self::PREFIX . CLLADevs::GREEN . "Enabled. Build by CLADevs");    <--- error.
     
   }
   
