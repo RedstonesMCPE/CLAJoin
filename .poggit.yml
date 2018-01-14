@@ -3,5 +3,5 @@ branches:
 - master
 projects:
   CLAJoin:
-    path: "icon.png"
+    path: ""
 ...
