@@ -11,7 +11,7 @@ use pocketmine\utils\TextFormat as CLADevs;
 
 class Main extends PluginBase implements Listener {
   
-  const PREIX = "§fCLA§cDevs §7>§r ";
+  const PREFIX = "§fCLA§cDevs §7>§r ";
   
   public function onEnable(){
     $this->getLogger()->info(self::PREFIX . CLLADevs::GREEN . "Enabled. Build by CLADevs");
