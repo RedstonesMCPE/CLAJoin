@@ -23,7 +23,7 @@ class Main extends PluginBase implements Listener {
     $name = $player->getName();
     
      $event->setJoinMessage("§7[§a+§7] §a{name}");
-   $player->sendMessage(self::PREFIX . " §7| §aThanks for Playing");
+   $player->sendMessage(self::PREFIX . "§aThanks for Playing");
    $player->sendMessage(self::PREFIX . "§eYour §cTeam");
     
         $player->setFood(20);
